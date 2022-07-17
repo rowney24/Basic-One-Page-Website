@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+}
+
+
+.line-break{
+    border-width: none;
+    margin-top:0;
+    margin-bottom:0;
+    background-color:rgba(128, 128, 128, 0.678);
+    display:flex;
+    width:90%;
+
+}
+
+
+
+
+
+
+.menu-tab {
+    background-color: crimson;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    padding: 0 20px;
+    align-items: center;
+   }
+
+
+
+.menu-tab h1{
+ color:white;
+}
+
+.menu-tab a{
+    color:white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.menu-tab a:hover{
+    color:rgb(170, 169, 169);
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.menu-tab ul{
+    list-style: none;
+    display:flex;
+}
+
+
+
+
+
+
+.mid-page {
+background-color: rgba(240, 128, 128, 0.323);
+padding-top: 60px;
+padding-bottom: 60px;
+display:flex;
+justify-content:center;
+}
+
+.mid-page h3{
+    color:rgba(184, 65, 65, 0.884);
+    font-weight:bold;
+}
+
+.mid-page h3:hover{
+    color: rgba(163, 14, 14, 0.884);
+    cursor:pointer;
+}
+
+.mid-page p{
+    color:rgb(128, 126, 126);
+}
+
+.mid-page p:hover{
+    color:rgb(65, 64, 64);
+}
+
+.page-contents{
+max-width:75%;
+display:grid;
+grid-template-columns:repeat(auto-fit, minmax(320px, 1fr))
+
+}
+
+.page-contents h3{
+    display:grid;
+    justify-content:center;
+}
+
+
+.about-us{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: rgba(240, 128, 128, 0.323);
+    display:grid;
+}
+
+.abt-us-cont h3{
+    line-height: 2em;
+    color:rgba(184, 65, 65, 0.884);
+    font-weight:bold;
+    display:grid;
+    justify-content:center;
+}
+
+
+.abt-us-cont h3:hover{
+    color: rgba(163, 14, 14, 0.884);
+    cursor:pointer;
+    
+}
+
+.abt-us-cont p{
+    color:rgb(128, 126, 126);
+    display:grid;
+    grid-template-columns: 65%;
+    justify-content:center;
+}
+
+.abt-us-cont p:hover{
+    color:rgb(65, 64, 64);
+}
+
+
+.footer{
+    padding-top: 60px;
+    padding-bottom: 100px;
+    background-color: crimson;
+    display:grid;
+    justify-content:center;
+}
+
+.footer h3{
+    line-height: 2em;
+    color:rgba(254, 253, 253, 0.884);
+    font-weight:bold;
+}
+
+.footer h3:hover{
+    color: rgba(254, 254, 254, 0.884);
+    cursor:pointer;
+}
+
+
+.footer p{
+line-height: 0.3em;
+color:rgb(243, 243, 243);
+display:grid;
+justify-content:center;
+}
+
+.cont-us-cont{
+display: grid;
+justify-content:center;
+}
+
+
+.final-rights{
+padding-top:20px;
+color:rgba(177, 182, 182, 0.792);
+
+}
+
+.credit{
+    font-size: 10px;
+}
